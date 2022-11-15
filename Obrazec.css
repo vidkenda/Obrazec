@@ -1,0 +1,80 @@
+body{
+    background-image:url("Slike/Party.jpg");
+    opacity:0.9;
+    background-size: cover;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#Wrapper{
+    background: linear-gradient(#dddbcf, #8c837e);
+    margin-right:auto;
+    margin-left:auto;
+    max-width:800px;
+    padding-right:10px;
+    padding-left:10px;
+    font-family:sans-serif;
+    border-radius: 25px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+
+.myForm * {
+    box-sizing: border-box;
+    }
+
+    .myForm legend,
+    .myForm label {
+    padding: 0;
+    font-weight: bold;
+    }
+    
+    .myForm label.choice {
+    font-size: 0.9em;
+    font-weight: bold;
+    }
+    
+    .myForm input[type="text"],
+    .myForm input[type="tel"],
+    .myForm input[type="email"],
+    .myForm input[type="datetime-local"],
+    .myForm select,
+    .myForm textarea {
+    display: inline;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.9em;
+    padding: 0.3em;
+    border-radius: 10px;
+    }
+    
+    .myForm textarea {
+    height: 100px;
+    }
+    
+    .myForm button {
+    padding: 1em;
+    border-radius: 0.5em;
+    background: #eee;
+    border: none;
+    font-weight: bold;
+    margin-top: 1em;
+    cursor: pointer;
+    font-size:1rem;
+    margin-bottom:20px;
+    }
+
+.myForm input[type="text"]:focus{
+    width:280px;
+}
+
+input:focus::placeholder{
+    color:transparent;
+}
+
+input[type="radio"] {
+    display: inline;
+}
+
