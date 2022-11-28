@@ -103,19 +103,10 @@
 
 <p>
     <label>Tel. Številka:
-    <input type="text" id="phone" onkeypress="return onlyNumberKey1(event)" required name="phone" maxlength="11" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"  style="width: 300px; margin-right:3.4em;">
+    <input type="text" id="phone"  required name="phone" maxlength="11" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"  style="width: 300px; margin-right:3.4em;">
     </label>
     </p>
 
-    <script>
-        function onlyNumberKey1(evt) {
-              
-            var ASCIICode = (evt.which) ? evt.which : evt.keyCode
-            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
-                return false;
-            return true;
-        }
-    </script>
 
 
 <legend>Spol</legend>
@@ -150,19 +141,9 @@
 
         <p>
             <label>Tel. Številka Skrbnika <span style="color:#FF0000">*</span>: 
-            <input type="text" id="phone" onkeypress="return onlyNumberKey2(event)" name="phone" maxlength="11" required placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"  style="width: 300px; margin-right:8.5em;">
+            <input type="text" id="phone"  name="phone" maxlength="11" required placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"  style="width: 300px; margin-right:8.5em;">
             </label>
             </p>
-
-            <script>
-                function onlyNumberKey2(evt) {
-                      
-                    var ASCIICode = (evt.which) ? evt.which : evt.keyCode
-                    if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
-                        return false;
-                    return true;
-                }
-            </script>
 
             <p>
                 <label>Email Skrbnika<span style="color:#FF0000">*</span>: 
